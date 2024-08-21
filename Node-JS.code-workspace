@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../Node-JS"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Soham's Portfolio"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "StickyNotesAndToDoList"
+	}
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky-Notes and To-Do-List</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="center">
+            <div class="left">
+                <h1><img src="images/notes.png">Sticky Notes</h1>
+                <button class="btn"><img src="images/edit.png">Create Notes</button>
+                <div class="notes-container">
+                </div>
+            </div>
+            <div class="right">
+                <h1><img src="images/icon1-removebg-preview.png">To-Do List</h1>
+                <div class="row">
+                    <input type="text" id="task" placeholder="Add a new task">
+                    <button onclick = "addTask()" class="task-btn">Add Task</button>
+                </div>
+                <ul id="task-list">
+                    <!-- <li class="checked">Task 1</li>
+                    <li>Task 2</li>
+                    <li>Task 3</li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
